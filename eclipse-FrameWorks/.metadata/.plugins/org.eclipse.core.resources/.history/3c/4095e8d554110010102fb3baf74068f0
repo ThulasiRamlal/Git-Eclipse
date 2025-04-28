@@ -1,0 +1,16 @@
+package com.practice;
+
+import java.util.Scanner;
+
+public class Practice1 {
+	
+	
+	    public static void main(String[] args) {
+	      double temp=25.5;
+	      double kelvin=temp+273;
+	      System.out.println("temp: "+temp);
+	      System.out.println("kelvin: "+kelvin);
+	    }
+	}
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost (2)" name="Tomcat v9.0 Server at localhost (2)" runtime-id="Apache Tomcat v9.0 (3)" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="16">
+    <list key="modules" value0="Servlet5::org.eclipse.jst.j2ee.server:Servlet5::jst.web::2.4" value1="Servelet4::org.eclipse.jst.j2ee.server:Servelet4::jst.web::2.4" value2="Servlet6::org.eclipse.jst.j2ee.server:Servlet6::jst.web::2.4" value3="Teja::org.eclipse.jst.j2ee.server:Teja::jst.web::2.4" value4="TejaS2::org.eclipse.jst.j2ee.server:TejaS2::jst.web::2.4" value5="TejaS4::org.eclipse.jst.j2ee.server:TejaS4::jst.web::2.4" value6="TejaS5::org.eclipse.jst.j2ee.server:TejaS5::jst.web::2.4" value7="TejaS6::org.eclipse.jst.j2ee.server:TejaS6::jst.web::2.4" value8="TejaS7::org.eclipse.jst.j2ee.server:TejaS7::jst.web::2.4" value9="Dummy::org.eclipse.jst.j2ee.server:Dummy::jst.web::2.4"/>
+  </server>
+</servers>

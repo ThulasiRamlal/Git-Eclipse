@@ -1,0 +1,90 @@
+package com.singeThread;
+
+import java.util.Scanner;
+
+public class SingleThread {
+	public static void main(String[] args) {
+		
+		typing();
+		
+		multiply();
+		
+		searching();
+	
+		}
+		
+		
+	
+	public static  void typing()
+	{
+		try
+		{
+		System.out.println("TYPING ACTITVITY STARTED");
+		 Scanner scan=new Scanner(System.in);
+		System.out.println("ENTER THE 10 WORDS");
+		String sen=" ";
+		for(int i=1;i<=5;i++)
+		{
+			String word=scan.next();
+			  sen=sen+word+" ";
+			 System.out.println(sen);
+		}
+		Thread.sleep(5000);
+		System.out.println("TYPING ACTIVITY ENDED");
+	}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	public static void multiply()
+	{
+		try
+		{
+		System.out.println("MULTIPLY ACTIVITY  STARTED....");
+		 Scanner scan=new Scanner(System.in);
+		 System.out.println("ENTER 'A' VALUE");
+		 int a=scan.nextInt();
+		 System.out.println("ENTER 'B' VALUE");
+		 int b=scan.nextInt();
+		// System.out.println("RESULT...");
+		 int c=a*b;
+		 Thread.sleep(5000);
+		 System.out.println("RESULT :"+c);
+		 System.out.println("TYPING ACTIVITY STARTED..");
+		 
+		 
+	}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void searching()
+	{
+		try
+		{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("SEARCHING ACTIVITY STARTED");
+		int arr[]= {1,2,3,4,5,7,8,9};
+		System.out.println("ENTER KEY FOR SEARCHING ..");
+		int key=scan.nextInt();
+		for(int i=0;i<arr.length;i++)
+		{
+			if(key==arr[i])
+			{
+				Thread.sleep(5000);
+				System.out.println("KEY FOUND IN "+key+" INDEX..");
+				System.out.println("SEARCHING ACTIVITY  ENDED...");
+			}
+		}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}

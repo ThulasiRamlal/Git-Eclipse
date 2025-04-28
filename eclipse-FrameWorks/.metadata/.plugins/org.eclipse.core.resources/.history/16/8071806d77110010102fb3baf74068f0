@@ -1,0 +1,18 @@
+package com.practice;
+
+import java.util.Scanner;
+
+public class Practice1 {
+	
+	
+	    public static void main(String[] args) {
+	    	Scanner scan=new Scanner(System.in);
+
+	    float volum2=scan.nextFloat();
+	    
+	    double volume= (volum2*3.78541);
+	    System.out.println(volume);
+	    }
+	}
+
+

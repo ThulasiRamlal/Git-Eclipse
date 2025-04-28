@@ -1,0 +1,36 @@
+package com.packages;
+import java.util.Scanner;
+public class FeqCount {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		String s=scan.nextLine();
+		System.out.print("{");
+		boolean first=true;
+		for(int i=0;i<=s.length()-1;i++) {
+			char ch=s.charAt(i);
+			int count=0;
+			for(int j=1;j<i;j++) {
+				if(s.charAt(j)==ch) {
+					count++;
+				}
+			}
+			if(count==0) {
+				for(int k=i;k<=s.length()-1;k++) {
+					if(s.charAt(k)==ch) {
+						count++;
+					}
+				}
+				
+				System.out.print(ch+":"+count);
+				if(!first) {
+					System.out.println(",");
+				first=false;
+				}
+			}
+			
+		}
+		System.out.println("}");
+	}
+
+}

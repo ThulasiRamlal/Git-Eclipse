@@ -1,0 +1,20 @@
+package com.multiThread;
+
+public class DemoThreadApp {
+	public static void main(String[] args) {
+		DemoThread d1=new DemoThread();
+		DemoThread d2=new DemoThread();
+		DemoThread d3=new DemoThread();
+		
+		d1.setName("type");
+		d2.setName("multiply");
+		d3.setName("searching");
+		
+		d1.start();
+		d2.start();
+		d3.start();
+		
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.practice;
+
+import java.util.Scanner;
+
+public class Practice1 {
+	
+	
+	    public static void main(String[] args) {
+	    	Scanner scan=new Scanner(System.in);
+
+	    double height =scan.nextDouble();
+	    double width=scan.nextDouble();
+	    double result=height*width;
+	    
+	    
+	    
+	    }
+	    
+	    public static double cal(double height, double width)
+	    {
+	    	
+	    	
+	    			 
+	    }
+	}
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.crud.StudentUpdate&apos; to &apos;StudentRead&apos;&#x0D;&#x0A;- Original project: &apos;HibernateFebruary&apos;&#x0D;&#x0A;- Original element: &apos;com.crud.StudentUpdate&apos;&#x0D;&#x0A;- Renamed element: &apos;com.crud.StudentRead&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StudentUpdate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.crud{StudentUpdate.java[StudentUpdate" matchStrategy="1" name="StudentRead" qualified="false" references="true" similarDeclarations="false" stamp="1738307782017" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package com.packages;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class ZerosAndOnces {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int n=scan.nextInt();
+		LinkedList <Integer>ll=new LinkedList();
+		LinkedList<Integer>ll1=new LinkedList();
+		for(int i=0;i<=n;i++) {
+			int data=scan.nextInt();
+			if(data!=0 && data!=1) {
+				System.out.println("Invalid");
+			}
+			ll.add(data);
+		}
+
+	}
+
+}
